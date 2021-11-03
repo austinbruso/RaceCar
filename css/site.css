@@ -1,0 +1,148 @@
+:root {
+    --primary-color: #009ee0;
+    --secondary-color: #ff993b;
+    --pink-color: #dd82af;
+    --lightBlue-color: ;
+}
+
+.odd {
+    font-weight: 100;
+}
+
+.even {
+    font-weight: bold;
+    font-size: large;
+}
+
+body {
+    color: var(--pink-color);
+    
+}
+
+.logo {
+    color: purple;
+}
+
+
+nav{
+    background-color: var(--primary-color);
+}
+
+
+
+.container-fluid {
+    margin-bottom: -45;
+}
+
+
+
+footer{
+    background-color: var(--primary-color);
+    
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:10px !important; padding-bottom:0 !important;
+    height: 30px;
+}
+.navbar {min-height:100px !important;}
+
+.navbar-brand {
+    font-size: 40px;
+}
+.logoName {
+    font-size: 40px;
+}
+
+footer {
+    overflow: hidden;
+    height: 150px;
+    position: fixed;
+    width:100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+footer .social>a{
+    color: var(--white-color);
+    opacity: 0.75;
+}
+
+footer .social>a:hover {
+    opacity: 0.9;
+    color: var(--secondary-color)
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+
+.bsicon {
+    color: purple;
+}
+
+.jsicon {
+    color: rgba(226, 211, 4);
+}
+
+.html5icon {
+    color: orangered;
+}
+
+.cssicon {
+    color: rgb(11, 82, 214);
+}
+
+.icons {
+    margin-bottom: 100px;
+
+}
+
+
+code[class*="language-"],
+pre[class*="language-"] {
+white-space: pre-wrap;
+word-break: break-all;
+word-wrap: break-word;
+}
+
+/* @media only screen and (max-width: 480px) {
+    footer {
+      height: 23%;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+     
+    }
+
+    .icons {
+        margin-bottom: 100px;
+    }
+
+  }
+
+  @media only screen and (min-width: 480px) and (max-width: 768px) {
+    footer {
+      height: 18%;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+    }
+
+    .icons {
+        margin-bottom: 130px;
+    }
+
+  }  */
